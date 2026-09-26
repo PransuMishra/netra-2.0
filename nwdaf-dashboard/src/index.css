@@ -1,0 +1,29 @@
+/* NETRA 2.0 | IMT-2030 Compliant 6G NWDAF Dashboard */
+/* Citation: ITU-R M.2160 / IMT-2030 Framework */
+/* Minimal reset — all component styles live in App.css */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}

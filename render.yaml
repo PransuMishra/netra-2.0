@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: netra-backend
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.backend
+    dockerContext: .
+    envVars:
+      - key: CORS_ORIGINS
+        sync: false
